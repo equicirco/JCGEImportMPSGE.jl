@@ -4,3 +4,6 @@ JCGEImportMPSGE = "f07e4517-cb44-4ce3-be1e-24c689785741"
 
 [sources]
 JCGEImportMPSGE = { path = ".." }
+JCGECore = { url = "https://github.com/equicirco/JCGECore.jl" }
+JCGECalibrate = { url = "https://github.com/equicirco/JCGECalibrate.jl" }
+JCGEBlocks = { url = "https://github.com/equicirco/JCGEBlocks.jl" }
