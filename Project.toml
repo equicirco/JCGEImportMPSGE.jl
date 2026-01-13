@@ -1,0 +1,23 @@
+name = "JCGEImportMPSGE"
+uuid = "f07e4517-cb44-4ce3-be1e-24c689785741"
+authors = ["Riccardo Boero <ribo@nilu.no>"]
+version = "0.1.0"
+
+[deps]
+JCGECalibrate = "52bcf1bb-6e19-4931-bbe4-0e0c79f03f49"
+JCGEBlocks = "e7e2410e-b632-4869-8943-8241db0dfb31"
+JCGECore = "9fb9d605-0ed3-4980-82c1-f0874844db5d"
+MPSGE = "d5dc2f44-7ae2-49e9-bc77-b47b6bca565d"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[sources]
+JCGECore = { url = "https://github.com/equicirco/JCGECore.jl" }
+JCGECalibrate = { url = "https://github.com/equicirco/JCGECalibrate.jl" }
+JCGEBlocks = { url = "https://github.com/equicirco/JCGEBlocks.jl" }
+
+[compat]
+JCGECalibrate = "0.1"
+JCGEBlocks = "0.1"
+JCGECore = "0.1"
+MPSGE = "0.6"
+julia = "1.10"
