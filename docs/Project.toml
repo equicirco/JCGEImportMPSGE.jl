@@ -1,9 +1,8 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 JCGEImportMPSGE = "f07e4517-cb44-4ce3-be1e-24c689785741"
+JCGECalibrate = "52bcf1bb-5715-4bdb-b809-8ade53bb6205"
+JCGECore = "9fb9d605-0ed3-4980-82c1-f0874844db5d"
 
 [sources]
 JCGEImportMPSGE = { path = ".." }
-JCGECore = { url = "https://github.com/equicirco/JCGECore.jl" }
-JCGECalibrate = { url = "https://github.com/equicirco/JCGECalibrate.jl" }
-JCGEBlocks = { url = "https://github.com/equicirco/JCGEBlocks.jl" }
