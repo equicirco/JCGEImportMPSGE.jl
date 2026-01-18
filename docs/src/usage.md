@@ -1,6 +1,6 @@
 # Usage
 
-`JCGEImportMPSGE` converts an `MPSGE.jl` model object into a JCGE RunSpec.
+`JCGEImportMPSGE` converts an `MPSGE.jl` model object into a [JCGE](https://jcge.org) RunSpec.
 
 ```julia
 using MPSGE, JCGEImportMPSGE
@@ -11,4 +11,3 @@ spec = import_mpsge(m)
 
 When the source model is complementarity-based, the importer emits MCP blocks
 for PATHSolver.
-

@@ -11,8 +11,6 @@ MPSGE = "d5dc2f44-7ae2-49e9-bc77-b47b6bca565d"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [sources]
-JCGECore = { url = "https://github.com/equicirco/JCGECore.jl" }
-JCGECalibrate = { url = "https://github.com/equicirco/JCGECalibrate.jl" }
 JCGEBlocks = { url = "https://github.com/equicirco/JCGEBlocks.jl" }
 
 [compat]

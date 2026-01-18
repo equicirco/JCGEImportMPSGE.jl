@@ -12,8 +12,7 @@ Security: For vulnerabilities.
 
 ## [0.1.0] - unreleased
 ### Added
-- Project layout and package boundaries.
-- Initial block-based modeling interfaces and RunSpec structure.
-- Calibration and output utilities with canonical data schema.
-- Example models and integration tests.
-- Documentation scaffolding and package docs.
+- `import_mpsge` entrypoint converting `MPSGEModel` objects to JCGE RunSpecs.
+- Minimal importer that builds production, household, market, and numeraire blocks from netputs, final demands, and endowments.
+- Data-assisted importer that assembles full block suites (trade, prices, production, labor, government, savings, external) and initial values from precomputed tables.
+- MCP-style spec generation with closure and scenario wiring plus label normalization for indexed MPSGE symbols.

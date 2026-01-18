@@ -10,10 +10,10 @@
 A Computable General Equilibrium (CGE) model is a quantitative economic model that represents an economy as interconnected markets for goods and services, factors of production, institutions, and the rest of the world. It is calibrated with data (typically a Social Accounting Matrix) and solved numerically as a system of nonlinear equations until equilibrium conditions (zero-profit, market-clearing, and income-balance) hold within tolerance.
 
 ## What is JCGE?
-JCGE is a block-based CGE modeling and execution framework in Julia. It defines a shared RunSpec structure and reusable blocks so models can be assembled, validated, solved, and compared consistently across packages.
+[JCGE](https://jcge.org) is a block-based CGE modeling and execution framework in Julia. It defines a shared RunSpec structure and reusable blocks so models can be assembled, validated, solved, and compared consistently across packages.
 
 ## What is this package?
-Placeholder for a converter that lowers MPSGE.jl model objects into JCGE blocks.
+Placeholder for a converter that lowers MPSGE.jl model objects into [JCGE](https://jcge.org) blocks.
 
 Scope:
 - Import MPSGE.jl model objects (not the MPSGE language as a first-class input).
@@ -65,3 +65,40 @@ Unsupported MPSGE features (for now):
 
 `import_mpsge` always produces an MCP formulation (no objective). Use
 PATH via `PATHSolver.Optimizer` to solve the imported model.
+
+## How to cite
+
+If you use the [JCGE](https://jcge.org) framework, please cite:
+
+Boero, R. *JCGE - Julia Computable General Equilibrium Framework* [software], 2026.
+DOI: 10.5281/zenodo.18282436
+URL: https://JCGE.org
+
+```bibtex
+@software{boero_jcge_2026,
+  title  = {JCGE - Julia Computable General Equilibrium Framework},
+  author = {Boero, Riccardo},
+  year   = {2026},
+  doi    = {10.5281/zenodo.18282436},
+  url    = {https://JCGE.org}
+}
+```
+
+If you use this package, please cite:
+
+Boero, R. *JCGEImportMPSGE.jl - Importer from MPSGE.jl model objects into JCGE.* [software], 2026.
+DOI: (not yet assigned)
+URL: https://ImportMPSGE.JCGE.org/
+SourceCode: https://github.com/equicirco/JCGEImportMPSGE.jl
+
+```bibtex
+@software{boero_jcgeimportmpsge_2026,
+  title  = {JCGEImportMPSGE.jl - Importer from MPSGE.jl model objects into JCGE.},
+  author = {Boero, Riccardo},
+  year   = {2026},
+  doi    = {},
+  url    = {https://ImportMPSGE.JCGE.org/}
+}
+```
+
+If you use a specific tagged release, please cite the version DOI assigned on Zenodo for that release (preferred for exact reproducibility).
